@@ -3,14 +3,77 @@
 // Custom home page styling here
 .main-content {
   h1 {
+    font-size: 24px;
+    font-size: 1.5rem;
 
+    &::before {
+      background: linear-gradient(to bottom, #01035a 0%, #123df1 100%);
+      content: '';
+      display: block;
+      height: 4px;
+      margin: 0 auto 1em;
+      width: 60px;
+    }
   }
 
   h2 {
+    font-size: 20px;
+    font-size: 1.25rem;
 
+    &::before {
+      background: #0288d1;
+      content: '';
+      display: block;
+      height: 4px;
+      margin-bottom: 1em;
+      width: 90px;
+    }
   }
 
   h3 {
+    font-size: 19px;
+    font-size: 1.1875rem;
 
+    &::before {
+      background: #cacaca;
+      content: '';
+      display: block;
+      height: 4px;
+      margin-bottom: 1em;
+      width: 90px;
+    }
+  }
+}
+
+.icon {
+  display: block;
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+
+  &.icon-apple {
+    background: url('/assets/icons/apple-24.png');
+    background: url('/assets/icons/apple.svg');
+  }
+
+  &.icon-broccoli {
+    background: url('/assets/icons/broccoli-24.png');
+    background: url('/assets/icons/broccoli.svg');
+  }
+
+  &.icon-carrot {
+    background: url('/assets/icons/carrot-24.png');
+    background: url('/assets/icons/carrot.svg');
+  }
+
+  &.icon-cheese {
+    background: url('/assets/icons/cheese-24.png');
+    background: url('/assets/icons/cheese.svg');
+  }
+
+  &.icon-fish {
+    background: url('/assets/icons/fish-24.png');
+    background: url('/assets/icons/fish.svg');
   }
 }
